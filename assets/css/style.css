@@ -126,3 +126,27 @@ input {
     font-size: 17px;
     line-height: 48px;
 }
+footer {
+    color: #737373;
+    font-weight: 100;
+    margin: 0 auto;
+    max-width: 980px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.lang ul {
+    display: flex;
+    align-items: center;
+}
+.lang ul li {
+    padding-left: 10px;
+}
+.lang img {
+    max-width: 30px;
+}
