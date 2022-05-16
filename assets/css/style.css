@@ -78,7 +78,7 @@ h2 {
     align-items: center;
     border-bottom: 1px solid #dadde1;
     display: flex;
-    margin: 20px 16px;
+    margin: 20px 0;
     text-align: center;
 }
 input {
@@ -94,4 +94,27 @@ input {
 }
 ::placeholder {
     color: #90949c;
+}
+.login-btn button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    max-width: 100%;
+    width: 100%;
+    color: #ffffff;
+    margin: 6px 0;
+}
+.forget-pass {
+    text-align: center;
+}
+.forget-pass a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+.forget-pass a:hover {
+    border-bottom: 1px solid #1877f2;
 }
