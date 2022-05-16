@@ -25,7 +25,8 @@ body {
     min-width: 500px;
     padding-bottom: 112px;
     padding-top: 72px;
-    height: 100vh;
+    min-height: 720px;
+    zoom: 1;
 }
 .main-login {
     margin: 0 auto;
