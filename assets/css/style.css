@@ -11,6 +11,9 @@ a {
     text-decoration: none;
     color: #000000;
 }
+html, body {
+    max-width: 100%;
+}
 body {
     padding: 0;
     margin: 0;
@@ -21,7 +24,6 @@ body {
 }
 .main-content {
     background: #f0f2f5;
-    min-width: 500px;
     padding-bottom: 112px;
     padding-top: 72px;
     min-height: 720px;
@@ -144,7 +146,6 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 12px;
-    min-width: 500px;
 }
 ul {
     list-style-type: none;
