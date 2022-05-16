@@ -6,6 +6,10 @@
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: #000000;
+}
 body {
     padding: 0;
     margin: 0;
@@ -27,10 +31,13 @@ body {
     display: flex;
 }
 .login-left {
-    flex: 1 1;
+    flex: 1 1 50%;
+}
+.login-middle {
+    flex: 1 1 10%;
 }
 .login-right {
-    flex: 1 1;
+    flex: 1 1 40%;
 }
 @media only screen and (max-width: 768px) {
     .main-login {
@@ -55,4 +62,36 @@ h2 {
 .login-left h2 {
     line-height: 32px;
     letter-spacing: normal;
+}
+.login-card {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1 ), 0 8px 16px rgba(0, 0, 0, 0.1 );
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 10px 16px 28px 16px;
+    max-width: 100%;
+}
+.divider {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+input {
+    border-radius: 6px;
+    padding: 14px 16px!important;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    line-height: 16px;
+    vertical-align: middle;
+    margin: 6px 0;
+}
+::placeholder {
+    color: #90949c;
 }
